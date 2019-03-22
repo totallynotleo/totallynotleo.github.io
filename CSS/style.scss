@@ -127,9 +127,13 @@ section {
     height: 400px;
     }
 }
-div.spacer.spacer2{
+div.spacer{
     @include flex-centered();
     height: 180px;
+}
+div.spacer2{
+    @include flex-centered();
+    height: 90px;
 }
 
 img.mainphoto {
