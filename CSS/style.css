@@ -64,6 +64,7 @@ div.undernav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border: red solid 1px;
   height: 50px;
   width: 100%;
 }
@@ -83,7 +84,8 @@ a.navigation {
   font-family: "Crimson Text", Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 30px;
   color: antiquewhite;
-  padding: 10px 10px;
+  padding: 1px 10px;
+  padding-right: 3px;
 }
 
 a.navigation:hover {
@@ -105,6 +107,7 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border: red solid 1px;
   height: 5wv;
 }
 
@@ -124,6 +127,7 @@ section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border: red solid 1px;
   text-align: center;
   min-width: 10px;
 }
@@ -134,6 +138,13 @@ section.blurb {
 
 section.aboutme {
   height: 400px;
+}
+
+section.stack {
+  height: 80px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 section.projects {
@@ -156,6 +167,7 @@ section.photo {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border: red solid 1px;
   background-color: #E31E25;
   height: 400px;
 }
@@ -245,6 +257,12 @@ footer:hover {
   }
 }
 
+@media only screen and (max-width: 500px) {
+  a.navigation {
+    font-size: 7vw;
+  }
+}
+
 /* Tablet Styles */
 @media only screen and (min-width: 400) and (max-width: 510px) {
   footer {
@@ -287,7 +305,17 @@ footer:hover {
     display: -ms-flexbox;
     display: flex;
     width: 50%;
-    height: 5vw;
+    height: 8vw;
+    border: solid blue 1px;
+  }
+  section.stack {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 50%;
+  }
+  section.stacklogos {
+    width: 50%;
   }
   section.projects {
     width: 50%;
@@ -301,4 +329,4 @@ footer:hover {
             align-items: flex-start;
   }
 }
-/*# sourceMappingURL=style2.css.map */
+/*# sourceMappingURL=style.css.map */
