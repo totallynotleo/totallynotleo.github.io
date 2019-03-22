@@ -119,7 +119,8 @@ section {
         height: 80px;
     }
     &.projectinfo {
-        margin-bottom: 200px
+        margin-bottom: 200px;
+        padding-bottom: 10px;
     }
     &.photo {
     @include flex-centered();
@@ -127,7 +128,11 @@ section {
     height: 400px;
     }
 }
-
+div.spacer {
+    @include flex-centered();
+    height: 180px;
+    border: blue 1px solid;
+}
 img.mainphoto {
     object-fit: cover;
     max-width: 100%;
