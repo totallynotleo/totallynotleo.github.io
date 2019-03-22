@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text:600|Open+Sans');
+
+$headingfont: 'Crimson Text',Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+$color1: #E31E25;
+
+@mixin flex-centered {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;  
+}
+
+// Regular Code 
+html {
+    scroll-behavior: smooth;
+    min-width: 100px;
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    background-color: $color1;
+    color: antiquewhite;
+}
+
+img {
+    overflow: hidden;
+}
+
+
+h1 {
+    font-family: $headingfont;
+    font-size: 40px;
+}
+
+h2 {
+    font-family: $headingfont;
+    font-size: 35px;
+    padding-bottom: 0;
+}
+
+h3 {
+    font-family: $headingfont;
+    font-size: 20px;
+}
+
+p {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.undernav { //This hides under the navbar to help with layout
+    @include flex-centered();
+    height: 50px;
+    width: 100%;
+}
+
+nav {
+    position: fixed;
+    text-align: left;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    opacity: 1;
+    background-color: black;
+    padding-top: 1px;
+}
+
+a.navigation {
+    font-family: $headingfont;
+    font-size: 30px;
+    color: antiquewhite;
+    padding: 10px 10px;
+}
+
+a.navigation:hover {
+    transform: font-size(32px);
+    transition: 0.25s;
+}
+
+header{
+    @include flex-centered();    
+    height: 5wv;
+}
+
+main {
+    width: 100%;
+}
+
+section {
+    @include flex-centered();
+    text-align: center;
+    min-width: 10px;
+    &.blurb {
+        height: 200px;
+    }
+    &.aboutme {
+        height: 400px;
+    }
+    &.projects {
+        height: 80px;
+    }
+    &.projectinfo {
+        margin-bottom: 200px
+    }
+    &.photo {
+    @include flex-centered();
+    background-color: $color1;
+    height: 400px;
+    }
+}
+
+img.mainphoto {
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+}
+
+div.underfooter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;  
+    height: 60px;
+    width: 100%;
+    padding-right: 10px;
+}
+p.copyrightlarge {
+    font-size: 15px;
+    text-align: right;
+    color: antiquewhite;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+p.copyrightshort {
+    display: none;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 60px;
+    width:100%;
+    opacity: 0.7;
+    background-color: black;
+}
+
+footer:hover {
+    opacity: 1;
+    transition: 0.25s;
+}
+
+.icon{
+    float: left;
+    padding-top: 5px;
+    padding-left: 10px;
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+.icon:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    transition: 0.25s;
+  }
+
+/* Small Screen Responsiveness */
+@media only screen and (max-width: 500px) {
+    p.copyrightlarge {
+        display: none;
+    }
+    p.copyrightshort {
+        display: block;
+            font-size: 15px;
+            text-align: right;
+            color: antiquewhite;
+            padding-top: 20px;
+            padding-right: 10px;
+    }
+    section.aboutme {
+        height: 200vw;
+    }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 400) and (max-width:510px) {
+    footer {
+        width: auto;
+    }
+}
+
+/* Desktop Style */
+@media only screen and (min-width: 986px){
+    section.photo {
+        width: 50%;
+        height: 70%;
+        position: fixed;
+        left: 0;
+    }
+    .pagecontent {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        text-align: center;
+    }
+    section.aboutme {
+        width: 50%;
+        height: 50vw;
+        padding: 0 10px;
+    }
+    section.blurb {
+        width: 50%;
+        height: 40vw;
+    }
+    div.spacer {
+        display: flex;
+        width: 50%;
+        height: 5vw;
+    }
+    section.projects {
+        width: 50%;
+        height: 5vw;
+    }
+    section.projectinfo {
+        width: 50%;
+        height: 30vw;
+        align-items: flex-start
+    }
+}

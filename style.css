@@ -23,6 +23,27 @@ img {
   overflow: hidden;
 }
 
+h1 {
+  font-family: "Crimson Text", Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: "Crimson Text", Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 35px;
+  padding-bottom: 0;
+}
+
+h3 {
+  font-family: "Crimson Text", Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+}
+
+p {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
 #page {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -85,27 +106,6 @@ header {
       -ms-flex-align: center;
           align-items: center;
   height: 5wv;
-}
-
-h1 {
-  font-family: "Crimson Text", Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: 40px;
-}
-
-h2 {
-  font-family: "Crimson Text", Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: 35px;
-  padding-bottom: 0;
-}
-
-h3 {
-  font-family: "Crimson Text", Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: 20px;
-}
-
-p {
-  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-  font-size: 20px;
 }
 
 main {
@@ -205,6 +205,12 @@ footer {
   background-color: black;
 }
 
+footer:hover {
+  opacity: 1;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+
 .icon {
   float: left;
   padding-top: 5px;
@@ -221,12 +227,7 @@ footer {
   transition: 0.25s;
 }
 
-footer:hover {
-  opacity: 1;
-  -webkit-transition: 0.25s;
-  transition: 0.25s;
-}
-
+/* Small Screen Responsiveness */
 @media only screen and (max-width: 500px) {
   p.copyrightlarge {
     display: none;
