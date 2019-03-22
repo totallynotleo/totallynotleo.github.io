@@ -127,10 +127,11 @@ section {
     height: 400px;
     }
 }
-div.spacer {
+div.spacer.spacer2{
     @include flex-centered();
     height: 180px;
 }
+
 img.mainphoto {
     object-fit: cover;
     max-width: 100%;
@@ -243,8 +244,12 @@ footer:hover {
     div.spacer {
         display: flex;
         width: 50%;
-        height: 8vw;
-        border: solid blue 1px;
+        height: 15vw;
+    }
+    div.spacer2 {
+        display: flex;
+        width: 50%;
+        height: 14vw;
     }
     section.stack {
         display: flex;

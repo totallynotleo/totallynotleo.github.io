@@ -169,7 +169,7 @@ section.photo {
   height: 400px;
 }
 
-div.spacer {
+div.spacer.spacer2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -317,8 +317,14 @@ footer:hover {
     display: -ms-flexbox;
     display: flex;
     width: 50%;
-    height: 8vw;
-    border: solid blue 1px;
+    height: 15vw;
+  }
+  div.spacer2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 50%;
+    height: 14vw;
   }
   section.stack {
     display: -webkit-box;
