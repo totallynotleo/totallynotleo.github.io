@@ -206,6 +206,10 @@ img.mainphoto {
   height: auto;
 }
 
+img.stacklogos {
+  padding-right: 10px;
+}
+
 div.underfooter {
   display: -webkit-box;
   display: -ms-flexbox;
