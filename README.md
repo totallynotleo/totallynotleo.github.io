@@ -20,9 +20,9 @@ This is my personal portfolio website. I based the website design on a poster fo
 - As this is a one page website there is no "proper" sitemap. It does however have 4 different sections that the site will scroll (with anchors). These are Home, About, Stack and Projects, which form the content of the page. 
 
 #### Website Screenshots:
-INSERT FULLPAGE SCREENSHOT
-INSERT TABLET SCREENSHOT
-INSERT PHONE SCREENSHOT
+![Website Screenshot](https://github.com/totallynotleo/totallynotleo.github.io/blob/master/Screenshots/WebsiteScreenshot.png?raw=true)
+![Tablet Screenshot](https://github.com/totallynotleo/totallynotleo.github.io/blob/master/Screenshots/ResponsivenessScreenshot2.png?raw=true)
+![Phone Screenshot](https://github.com/totallynotleo/totallynotleo.github.io/blob/master/Screenshots/ResponsivenessScreenshot1.png?raw=true)
 
 #### Tech Stack & Target Audience: 
 - It was created using HTML, SASS and CSS as a one-page portfolio of my work as a developer. As this is a portfolio website, the target audience of this website includes potential employers, friends and family. 
@@ -37,6 +37,8 @@ INSERT PHONE SCREENSHOT
     - Links to my Github and LinkedIn accounts.
     - Information about my to demonstrate my personality.
     - My study and work history.
+
+
 From this information, I began to brainstorm potential ideas via a mood board and research.
 INSERT MOODBOARD SCREENSHOT
 Some initial prototype websites were made to look at concepts that seemed interesting. 
@@ -48,7 +50,8 @@ When I started to think about what the setup for the website would be with the p
 
 ### Wireframes
 Only 2 Wireframes were done for this website as it was designed to be very simple from the start. 
-INSERT WIREFRAMES
+![Wireframe Screenshot](https://github.com/totallynotleo/totallynotleo.github.io/blob/master/Screenshots/WireframeLaptopScreenshot.png?raw=true)
+![Wireframe Screenshot](https://github.com/totallynotleo/totallynotleo.github.io/blob/master/Screenshots/WireframePhoneScreenshot.png?raw=true)
 
 ### Usability Considerations 
 In addition to responsiveness for all screen sizes, this website was designed to deliberately have a high contrast between the text and background allows for easy readability. Semantic divs are also used to make sure that the content is accessible for screen-reader users.
@@ -71,6 +74,8 @@ Project Timeline:
 - 20/3 Friday: Create github for website.  Fix responsiveness problems and bug-fixing for website. 
 - 21/3 Saturday: Work on documentation and fixing logos on website
 
+![Trello Screenshot](https://github.com/totallynotleo/totallynotleo.github.io/blob/master/Screenshots/TrelloScreenshot.png?raw=true)
+![Trello Screenshot](https://github.com/totallynotleo/totallynotleo.github.io/blob/master/Screenshots/TrelloScreenshot2.png?raw=true)
 ----------------------------------------------------------------------------------------------------------------
 
 ##Short Answer Q&A 
