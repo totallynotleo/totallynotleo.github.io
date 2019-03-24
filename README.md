@@ -88,14 +88,14 @@ Project Timeline:
 
 Describe key events in the development of the internet from the 1980s to today (max. 150 words):
 
-- Key events in the internet development include 1989 Tim Berners-Lee develops WWW
-1992 WWW browser become available to download 
+    There exist many key events that lead to the development of the current internet, from early email protocols such as SMTP to the development of languages such as PHP as hypertext processor to modern developments such as Chrome. Some of the most important events were the early developments that laid the foundational groundwork for the current internet in the late 1980s and early 1990s, such as the development of the World Wide Web as an overall structure, HTML as a formatting language to be used, HTTP as a protocol for general internet transfer, and the DNS as the naming system for the content of the internet. These events, lead by Tim Berners-Lee created a structure that then became popularized by key events such as the creation of the first widely spread Browser NCSA Mosaic in 1993, and then by the increase in uptake by companies as they realise the necessity of the internet for business. 
 
 Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers (max. 150 words)
 
-- 
-
+    Relationship between fundamental aspects of the internet
+    The internet is formed from a variety of different aspects which all work together to allow for the creation and distribution of content. A website is formed from content on a domain, which acts as an address. Someone wishing to access this information can use a browser as an interface on their computer, by typing in a URL as a unique resource locator, which is stored with the domain on the DNS. The dns acts as the phone book of the internet, and is a collection of all the different domains and their corresponding information, stored not in one single location but in parts throughout the internet. Between the domain itself and the DNS, a program called a web server is used. Web servers store and send the files across the internet, using HTTP, or hypertext transfer protocol to transfer, store and manage the content that is displayed on the domains. 
+ 
 Reflect on one aspect of the development of internet technologies and how it has contributed to the world today (max. 150 words)
 
-- 
+    One aspect of the development of internet technologies that has been pivotal in changing the global infrastructure and way that society functions has been the development of database systems and structures, which have allowed for a shift in necessary jobs and productivity. Much like the industrial revolution changed the way that repetitive manual labour jobs were carried out and the energy and effort needed to complete them, the development of the information age, especially through analytical systems like database systems, changed the corporate world and the jobs of many people in a corporate setting. It allowed for streamlined, automated systems that could do data processing and management, that did not require constant human intervention or manual work. In doing so, the introduction of computer based database systems shifted not only the productivity of the corporate world but also modified what the job structure within a corporate system entailed.
 
