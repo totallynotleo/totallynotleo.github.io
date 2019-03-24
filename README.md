@@ -40,11 +40,13 @@ This is my personal portfolio website. I based the website design on a poster fo
 
 
 From this information, I began to brainstorm potential ideas via a mood board and research.
-INSERT MOODBOARD SCREENSHOT
+![Moodboard Screenshot](https://github.com/totallynotleo/totallynotleo.github.io/blob/master/Screenshots/MoodBoardScreenshot.png?raw=true)
 Some initial prototype websites were made to look at concepts that seemed interesting. 
-INSERT WEBSITE1 AND WEBSITE2 SCREENSHOTS
+![Website 1st Screenshot](https://github.com/totallynotleo/totallynotleo.github.io/blob/master/Screenshots/Website1stScreenshot.png?raw=true)
+![Website 2nd Screenshot](https://github.com/totallynotleo/totallynotleo.github.io/blob/master/Screenshots/Website2ndScreenshot.png?raw=true)
+![Website 3rd Screenshot](https://github.com/totallynotleo/totallynotleo.github.io/blob/master/Screenshots/Website3rdScreenshot.png?raw=true)
 I decided I would like to go with either a dark blue or dark red colorscheme initially, however I saw this poster whilst looking for ideas and thought it would be an interesting way to express information about myself. 
-INSERT POSTER HERE
+![Poster](https://github.com/totallynotleo/totallynotleo.github.io/blob/master/Screenshots/Poster.jpeg?raw=true)
 This poster then helped to decide the font-style, colorscheme and overall layout of the website.
 When I started to think about what the setup for the website would be with the poster in mind, I though I would lay all the information vertically. This ended up being the layout for the phone and tablet versions of the website, however for a larger screen it left a lot of unused space on the page, so the decision to put a static photo on the left with scrollable text on the right was made. 
 
@@ -76,9 +78,11 @@ Project Timeline:
 
 ![Trello Screenshot](https://github.com/totallynotleo/totallynotleo.github.io/blob/master/Screenshots/TrelloScreenshot.png?raw=true)
 ![Trello Screenshot](https://github.com/totallynotleo/totallynotleo.github.io/blob/master/Screenshots/TrelloScreenshot2.png?raw=true)
+![GitHub Screenshot](https://github.com/totallynotleo/totallynotleo.github.io/blob/master/Screenshots/GitHubScreenshot.png?raw=true)
+
 ----------------------------------------------------------------------------------------------------------------
 
-##Short Answer Q&A 
+## Short Answer Q&A 
 
 Describe key events in the development of the internet from the 1980s to today (max. 150 words):
 
